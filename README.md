@@ -2,11 +2,11 @@
 PROJETO MENSAL LISTA DE TAREFAS
 
 INTEGRANTES
-DEBORA GROTO - PRODUCT OWNER
-GABRIELA TAKEDA - SCRUM MASTER
-POLYANNA NEULAND - DEV SCRUM
-JOAO MARTINAZZO - DEV SCRUM
-JOAO - DEV SRUM
+Debora Groto: Product Owner
+Gabriela Takeda: Scrum Master
+Polyana Neuland: Dev
+João Martinazzo: Dev
+João: Dev
 
 O projeto de Lista de Tarefas é uma aplicação projetada para ajudar os usuários a gerenciar suas atividades diárias de forma organizada. Com uma interface intuitiva, a ferramenta permite criar, organizar e acompanhar tarefas de maneira simples e eficaz.
 
