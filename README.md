@@ -1,4 +1,7 @@
 # TaskQueue
+PROJETO MENSAL LISTA DE TAREFAS
+
+INTEGRANTES
 DEBORA GROTO - PRODUCT OWNER
 GABRIELA TAKEDA - SCRUM MASTER
 POLYANNA NEULAND - DEV SCRUM
@@ -12,4 +15,5 @@ Suas funcionalidades:
 Criação de tarefas: Adicionar uma tarefa nova com título;
 Marcação de status: Marcar como concluída ou pendente;
 Editar: Editar uma tarefa caso dê erro de digitação;
-Exclusão: Excluir uma tarefa conforme necessário.
+Exclusão: Excluir uma tarefa conforme necessário;
+Filtrar: Encontrar tarefas especificas;
