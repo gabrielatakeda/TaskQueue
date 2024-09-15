@@ -2,6 +2,7 @@
 PROJETO MENSAL LISTA DE TAREFAS
 
 INTEGRANTES
+
 Debora Groto: Product Owner
 Gabriela Takeda: Scrum Master
 Polyana Neuland: Dev
