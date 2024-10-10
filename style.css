@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+
+header{
+    height: 80px;
+    width: 1325px;
+    background-color: rgb(206,212,218);
+    display: flex;
+    align-items: center;
+}
+
+.barraLateral{
+    background-color: rgb(222, 228, 235);
+    width: 120px;
+    height: 544px;
+    display: flex;
+    flex-direction: column;
+}
+
+.botLateral{
+    background-color: rgb(222, 228, 235);
+    height: 50px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-color: rgb(202, 208, 214);
+}
