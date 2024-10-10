@@ -13,7 +13,7 @@ header{
 .barraLateral{
     background-color: rgb(222, 228, 235);
     width: 120px;
-    height: 544px;
+    height: 750px;
     display: flex;
     flex-direction: column;
 }
