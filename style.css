@@ -16,6 +16,7 @@ header{
     height: 750px;
     display: flex;
     flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .botLateral{
@@ -24,9 +25,11 @@ header{
     margin-top: 4px;
     margin-bottom: 4px;
     border-color: rgb(202, 208, 214);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h3 {
     padding-left: 70px;
     padding-left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
 }
