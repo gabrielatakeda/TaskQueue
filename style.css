@@ -21,14 +21,17 @@ header{
 
 
 .botoesCima{
-    background-color: rgb(222, 228, 235);
+    background-color: rgb(206,212,218);
     height: 50px;
     width: 150px;
     margin-top: 4px;
     margin-bottom: 4px;
     margin-left: 50px;
     margin-right: 50px;
-    border-color: rgb(202, 208, 214);
     border: 0;
     font:caption;
+}
+
+.botoesCima:hover{
+    background-color: rgb(155, 160, 165);
 }
