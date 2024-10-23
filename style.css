@@ -70,3 +70,15 @@ p {
     margin: 150px;
     margin-left: 80px;
 }
+
+button {
+    background-color: rgb(15, 188, 15); /*Cor de fundo*/
+    color: white; /*Cor do texto*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /*Fonte do texto*/
+    border-radius: 5px; /*Borda arredondada*/
+    margin-left: 50px; /*Espaço da margem da esquerda*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
