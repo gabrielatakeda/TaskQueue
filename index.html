@@ -4,27 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css"> <!--Arquivo do CSS-->
-    <link rel="icon" type="jpeg" href="./IconTQ.jpeg"> <!--Altera o ícone do navegador-->
+    <link rel="icon" type="png" href="./Logotipo.png"> <!--Altera o ícone do navegador-->
     <title>TASK QUEUE</title> <!--Título do navegador-->
 </head>
 <body>
-    <header>
+    <header class="header">
         <img src="./LogoTQ.jpeg" height="80px" width="120px"> <!--Imagem da logotipo da lista de tarefas-->
-        <h3>BOARD</h3> <!--Adicionado na header os botões-->
-        <h3>CALENDAR</h3>
-        <h3>NOTIFICATIONS</h3>
+        <div class="inHeader">
+
+            <select class="botoesCima">
+                <option>BOARDS</option>
+            </select> <!--Adicionado na header os botões-->
+
+            <div class="botoesCima">CALENDAR</div>
+            <div class="botoesCima">NOTIFICATIONS</div>
+        </div>
     </header>
     <div>
-    <p>
-        <strong>BOARDS</strong>
-    </p>
-        <p>
-            Add new board. <!--Texto adicionado para adicionar uma nova tarefa-->
-        </p>
-        <button>Create +</button> <!--Botão para criar nova tarefa-->
+        <p class="boards_text1"><strong>BOARDS</strong></p>
+        
+        <label for="botaoCriar" class="boards_text2">Add new board. <!--Texto adicionado para adicionar uma nova tarefa--></label>
+
+        <button class="botaoCreate" id="botaoCriar" name="botaoCriar">Create +</button> <!--Botão para criar nova tarefa-->
     </div>
 
-    <script src="./script.js"></script> <!--Arquivo do JavaScript-->
+    <div>
+        <p class="primeiroQuadrado"></p>
+    </div>
+
+    
+
+    <script src="./script.js"></script> <!--Arquivo do JavaScript--> 
 
 </body>
 </html>
