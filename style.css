@@ -30,11 +30,25 @@ header{
 
 h3 {
     padding-left: 70px;
-    padding-left: 70px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
-    margin: 150px;
-    margin-left: 80px;
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+button {
+    background-color: rgb(1, 177, 6); /*Cor de fundo do botão*/
+    margin-left: 50px; /*Espaço da margem da esquerda*/
+    cursor: pointer; /*Estilo do mouse ao passar pelo elemento do botão*/
+    border-radius: 5px; /*Borda arredondada*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /*Fonte do texto*/
+    color: white; /*Cor do texto*/
+    padding-top: 15px; /*Define o tamanho interno na parte superior*/
+    padding-bottom: 15px; /*Define a altura na parte inferior*/
+    padding-left: 30px; /*Define o preenchimento da esquerda dentro do elemento*/
+    padding-right: 30px; /*Define o preenchimento do direito dentro do elemento*/
+    box-shadow: 2px 2px 5px grey; /*Sombra*/
+}
+
