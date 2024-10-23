@@ -77,8 +77,10 @@ button {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /*Fonte do texto*/
     border-radius: 5px; /*Borda arredondada*/
     margin-left: 50px; /*Espaço da margem da esquerda*/
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 10px; /*Define a altura do espaço de preenchimento na parte superior do elemento*/
+    padding-bottom: 10px; /*Define a altura do espaço de preenchimento na parte inferior do elemento*/
+    padding-left: 20px; /*Define a largura do preenchimento à esquerda do elemento*/
+    padding-right: 20px; /*Define a largura do preenchimento à direita do elemento*/
+    cursor: pointer; /*O cursor do mouse altera quando passa pelo elemento*/
+    box-shadow: 2px 2px 5px grey; /*Sombra*/
 }
