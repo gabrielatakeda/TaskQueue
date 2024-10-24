@@ -90,9 +90,27 @@ header{
 }
 
 .primeiroQuadrado {
+    right: 850px;
+    position: absolute;
+    z-index: auto;
     background-color: #75B798; /*Cor de fundo*/
     height: 400px; /*Altura*/
     width: 300px; /*Comprimento*/
     margin: 120px; /*Margem em relação aos elementos que estão ao seu redor*/
     border-radius: 8px; /*Borda arredondada*/
+}
+
+.hide{
+    display: none;
+}
+
+.formNewBoard{
+    position: absolute;
+    z-index: 2;
+    left: 550px;
+    bottom: 230px;
+}
+
+.container{
+    position: relative;
 }

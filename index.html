@@ -8,8 +8,10 @@
     <title>TASK QUEUE</title> <!--Título do navegador-->
 </head>
 <body>
+
+
     <header class="header">
-        <img src="./LogoTQ.jpeg" height="80px" width="120px"> <!--Imagem da logotipo da lista de tarefas-->
+        <img src="./LogoTQ.png" height="80px" width="120px"> <!--Imagem da logotipo da lista de tarefas-->
         <div class="inHeader">
 
             <select class="botoesCima">
@@ -20,21 +22,41 @@
             <div class="botoesCima">NOTIFICATIONS</div>
         </div>
     </header>
-    <div>
+
+
+    <div class="contaier">
         <p class="boards_text1"><strong>BOARDS</strong></p>
-        
-        <label for="botaoCriar" class="boards_text2">Add new board. <!--Texto adicionado para adicionar uma nova tarefa--></label>
-
+        <div for="botaoCriar" class="boards_text2">Add new board. <!--Texto adicionado para adicionar uma nova tarefa--></div>
         <button class="botaoCreate" id="botaoCriar" name="botaoCriar">Create +</button> <!--Botão para criar nova tarefa-->
+       
+        <div id="formNewBoard" class="hide">
+            <input id="inputBoard" class=""></input>
+            <p>Select your favorite color:</p>
+            <label>
+                <input type="radio" name="color" value="Red"> Red
+            </label><br>
+            <label>
+                <input type="radio" name="color" value="Blue"> Blue
+            </label><br>
+            <label>
+                <input type="radio" name="color" value="Green"> Green
+            </label><br>
+            <label>
+                <input type="radio" name="color" value="Yellow"> Yellow
+            </label><br>
+            <label>
+                <input type="radio" name="color" value="Purple"> Purple
+            </label><br>
+        </div>
+
     </div>
+
 
     <div>
-        <p class="primeiroQuadrado"></p>
+        <p class="primeiroQuadrado" id="primeiroQuadrado"></p>
     </div>
 
-    
-
-    <script src="./script.js"></script> <!--Arquivo do JavaScript--> 
 
 </body>
+    <script src="./script.js"></script> <!--Arquivo do JavaScript--> 
 </html>
