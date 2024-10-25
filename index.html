@@ -26,35 +26,49 @@
 
     <div class="contaier">
         <p class="boards_text1"><strong>BOARDS</strong></p>
-        <div for="botaoCriar" class="boards_text2">Add new board. <!--Texto adicionado para adicionar uma nova tarefa--></div>
+        <div for="botaoCriar" class="boards_text2">Add new board.</div> <!--Texto adicionado para adicionar uma nova tarefa-->
         <button class="botaoCreate" id="botaoCriar" name="botaoCriar">Create +</button> <!--Botão para criar nova tarefa-->
-       
-        <div id="formNewBoard" class="hide">
-            <input id="inputBoard" class=""></input>
-            <p>Select your favorite color:</p>
-            <label>
-                <input type="radio" name="color" value="Red"> Red
-            </label><br>
-            <label>
-                <input type="radio" name="color" value="Blue"> Blue
-            </label><br>
-            <label>
-                <input type="radio" name="color" value="Green"> Green
-            </label><br>
-            <label>
-                <input type="radio" name="color" value="Yellow"> Yellow
-            </label><br>
-            <label>
-                <input type="radio" name="color" value="Purple"> Purple
-            </label><br>
+      
+        <div id="formNewBoard" class="hide"> <!-- isso é o formulario de criação de board -->
+            <label for="BoardName">Board Name</label>
+            <input id="BoardName" class=""></input>
+            <p>Select the Board color:</p>
+        
+            <form>
+
+                <div class="innerForm">
+
+                    <label>
+                        <input type="radio" name="color" value="Red"> Red
+                    </label><br>
+                    <label>
+                        <input type="radio" name="color" value="Blue"> Blue
+                    </label><br>
+                    <label>
+                        <input type="radio" name="color" value="Green"> Green
+                    </label><br>
+                    <label>
+                        <input type="radio" name="color" value="Yellow"> Yellow
+                    </label><br>
+                    <label>
+                        <input type="radio" name="color" value="Purple"> Purple
+                    </label><br>
+                </div>
+                
+                <div class="organização">
+                    <button type="submit" class="botaoCreate2" id="criarBoard">Create</button>
+                </div>
+
+            </form>
+           
+        </div>
+
+        <div id="teste">
+            <div id="filho"></div>
         </div>
 
     </div>
 
-
-    <div>
-        <p class="primeiroQuadrado" id="primeiroQuadrado"></p>
-    </div>
 
 
 </body>

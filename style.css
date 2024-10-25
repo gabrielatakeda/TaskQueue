@@ -89,28 +89,67 @@ header{
     background-color: rgb(35, 197, 122); /*Cor de fundo*/
 }
 
-.primeiroQuadrado {
-    right: 850px;
+.Quadrado {
     position: absolute;
     z-index: auto;
-    background-color: #75B798; /*Cor de fundo*/
     height: 400px; /*Altura*/
     width: 300px; /*Comprimento*/
     margin: 120px; /*Margem em relação aos elementos que estão ao seu redor*/
     border-radius: 8px; /*Borda arredondada*/
 }
 
-.hide{
+.hide{ /*classe apenas para esconder elementos*/
     display: none;
 }
 
 .formNewBoard{
-    position: absolute;
-    z-index: 2;
-    left: 550px;
+    position: absolute; /*posicionamento dentro do container*/
+    z-index: 2; /*posição "z" do elemento*/
+    left: 490px;
     bottom: 230px;
+    background-color: rgb(206,212,218);
+    height: 250px;
+    width: 300px;
+    display: flex;
+        justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+
+}
+
+.innerForm{
+    margin-left: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .container{
     position: relative;
 }
+
+.botaoCreate2 {
+    background-color: rgb(25, 135, 84); /*Cor de fundo*/
+    color: white; /*Cor do texto*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /*Fonte do texto*/
+    border-radius: 5px; /*Borda arredondada*/
+    padding-top: 10px; /*Define a altura do espaço de preenchimento na parte superior do elemento*/
+    padding-bottom: 10px; /*Define a altura do espaço de preenchimento na parte inferior do elemento*/
+    padding-left: 20px; /*Define a largura do preenchimento à esquerda do elemento*/
+    padding-right: 20px; /*Define a largura do preenchimento à direita do elemento*/
+    cursor: pointer; /*O cursor do mouse altera quando passa pelo elemento*/
+    margin-top: 10px;
+ }
+ 
+ .organização{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ #teste{
+    width: 100%;
+    height: 100px;
+ }
